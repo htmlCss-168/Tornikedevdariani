@@ -1,0 +1,59 @@
+.header{
+    padding-bottom: 10px;
+    display: 100%;
+    text-align: center;
+    margin-top: 0px;
+   
+}
+
+#top {
+    padding: 0%;
+
+}
+.menu {
+    text-align: center;
+    padding: 20px;
+}
+
+.menu a {
+    padding: 60px;
+    font-size: 24px;
+    color: black;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+}
+
+
+
+img {
+    padding-left: 40px;
+
+}
+
+body {
+    text-align: center;
+    
+}
+
+p {
+    border: solid 2px;
+    border-radius: 10px;
+    width: 900px;
+    font-weight: bold;
+    margin-left: 15%;
+}
+
+.input {
+    width: 100%;
+    display: block;
+    border: solid;
+    background-color: black;
+    margin-top: 40px;
+}
+
+input {
+    width: 1300px;
+    padding: 10px;
+    margin: 5px;
+    
+}
