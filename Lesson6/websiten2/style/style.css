@@ -6,8 +6,10 @@ color: aliceblue;
 text-align: center;
 }
 
+
 h1 {
     text-align: center;
+    font-family: rosario;
 }
 
 .photos {
@@ -35,7 +37,6 @@ table {
 tr:hover {
     background-color: #198586;
     color: #c9f3c3;
-    
     }
 
 th {
@@ -73,4 +74,13 @@ td {
 
 .rating input:focus{
     color: red;
+}
+
+@font-face {
+    font-family: rosario;
+    src: url(/style/font/Resoterose-K7nel.ttf);
+}
+
+img:hover {
+   margin: -10px;
 }
