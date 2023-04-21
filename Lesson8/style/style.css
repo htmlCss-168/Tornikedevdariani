@@ -1,0 +1,220 @@
+body {
+    background: rgb(2,0,36);
+    background: linear-gradient(93deg, rgba(2,0,36,1) 0%, rgba(55,74,101,1) 52%, rgba(0,255,226,1) 100%);
+    text-align: center;
+        
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(/style/font/Roboto-Thin.ttf)
+}
+
+nav {
+    display: flex;
+    position: sticky;
+    top: 2px;
+    /* margin-inline-end: -1cm;
+    margin-inline-start: -1cm; */
+    box-shadow: 0px 0px 5px;
+    object-fit: cover;
+    font-family: roboto;
+    text-align: center;
+    direction: ltr;
+    background-image: url(/nasa_town_hall_bam_screen-dr.png);
+    
+}
+
+.navigationright {
+    margin-left: 60%;
+    display: flex;
+    justify-content: center;
+    color: #020024;
+    font-size: 24px;
+    
+
+}
+
+.navigationright input {
+    cursor: text;
+    display: flex;
+    height:70% ;
+    justify-content: center;
+    background-color: #0c5c52;
+    border-style: none;
+    border-radius: 5px;
+    color: #020024;
+    margin-top: 10px;
+      
+    }
+
+.navigationright ::placeholder{
+    color: antiquewhite;
+    text-align: center;
+}
+
+nav img {
+    padding-left: 1cm; 
+}
+
+nav a{
+    color: #00d4ff;
+    text-decoration: none;
+    text-shadow: 0px 0px 3px;
+    padding: 20px;
+}
+
+nav a:hover {
+    color: #76b1bd;
+}
+
+.photos {
+    display: flex;
+    justify-content: center;
+    padding-left: 40px;
+}
+
+
+h1 {
+    text-shadow: 0px 0px 2px;
+    color:#00d4ff ;
+}
+#photoeffect {
+    border-radius: 10px;
+    
+    box-shadow: 0px 0px 10px;
+}
+
+.phototransform:hover{
+ transform: rotate(20deg);
+ scale: 1.3;
+}
+   
+    
+
+.phototransform {
+    transition-timing-function: ease-in;
+    transition: 1s;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.aboutnasa {
+    color: #ffffff;
+    background-color: #7574858c;
+    border-radius: 10px;
+    font-weight: bold;
+    justify-content: center;
+    box-shadow: 0px 0px 10px;
+    color:#8ec9d4;
+    text-align: center;
+    /* background-image: url(/nasa_town_hall_bam_screen-dr.png); */
+}
+.aboutid {
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.aboutid p{
+    width: 30%;
+}
+
+.tables {
+    color: #f4f6f7;
+    background-color: #7574854f;
+    border-radius: 10px;
+    
+    box-shadow: 0px 0px 10px;
+
+}
+
+#tableid {
+    color:#8ec9d4;
+    background-color: #7574854f;
+    border-radius: 10px;
+    font-weight: bold;
+    justify-content: center;
+    box-shadow: 0px 0px 10px;
+    display: inline-block;
+    margin-left: 20px;
+    border-collapse: collapse;
+     
+}
+h2 {
+    color: #8ec9d4;
+}
+
+th {
+    color: #84ece0;
+}
+td {
+    color:#0fe0c8 ;
+    padding: 10px;
+}
+tr:hover {
+    background-color: #2e3538;
+}
+footer {
+    background-color: #020024;
+    text-align: start;
+}
+footer a {
+    color: #ffffff;
+}
+.topfooter {
+    height: 80px;
+    display: flex;
+    text-align: center;
+}
+.footerlinks {
+    padding-left: 70%;
+    padding-top: 20px;
+}
+.footerlogo {
+    display: flex;
+    padding-left: 90px;
+}
+.bottomfooter {
+    display: flex;
+    border: solid 0.5px;
+    border-color: #ffffff;
+    border-left: none;
+    border-right: none;
+    border-bottom: none;
+}
+.company {
+    display: block;
+    width: 20%;
+    height: 150px;
+    margin-left: 10%;
+}
+
+.courses {
+    display: block;
+    width: 20%;
+}
+.footerright {
+    margin-left: 30%;
+}
+
+footer input {
+    padding: 5px;
+    margin-bottom: 5px;
+    background-color: #020024;
+    border-radius: 5px;
+    border-color: #ffffff;
+    
+}
+
+footer button {
+    padding: 5px;
+    padding-inline: 60px;
+    border-radius: 5px;
+    color: #020024;
+    font-weight: bolder;
+    font-family: roboto;
+}
+
+footer button:hover {
+    background-color: #0fe0c8;}
