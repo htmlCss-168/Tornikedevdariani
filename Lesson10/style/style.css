@@ -1,0 +1,217 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+@font-face {
+    font-family: brunoace;
+    src: url(/style/font/BrunoAceSC-Regular.ttf);
+}
+
+:root {
+    --myFavouriteColor: #c3b73a ;
+    --FavouriteFont: brunoace;
+    --globalfontsize: 19px;
+}
+
+h2 {
+    font-family: brunoace;
+    color: #ffffff;
+    text-shadow: 0px 1px 2px;
+}
+body {
+    background: -o-linear-gradient(54deg, rgba(116,120,133,1) 0%, rgba(195,183,58,1) 52%, rgba(13,37,34,1) 100%);
+    background: linear-gradient(36deg, rgba(116,120,133,1) 0%, rgba(195,183,58,1) 52%, rgba(13,37,34,1) 100%);
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+nav {
+   z-index: 1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: -o-linear-gradient(54deg, rgba(116,120,133,1) 0%, rgba(195,183,58,1) 18%, rgba(13,37,34,0.9332107843137255) 33%);
+    background: linear-gradient(36deg, rgba(116,120,133,1) 0%, rgba(195,183,58,1) 18%, rgba(13,37,34,0.9332107843137255) 33%);
+    /* margin-left: -2%; */
+    -webkit-box-shadow: 5px 5px 10px;
+            box-shadow: 5px 5px 10px;
+    position: sticky;
+    top: 0;
+    
+    
+}
+
+header img {
+    margin-left: 30px;
+}
+
+header li {
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+header li:hover {
+    scale: 1.2;
+    text-shadow: 1px 1px 1px;
+}
+ 
+header a {
+    text-decoration: none;
+    padding: 10px;
+    color: #c3b73a;
+    
+}
+.slider {
+    overflow: hidden;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+#img1 {
+    position: relative;
+    top: 0;
+    -webkit-animation-name: anime1;
+            animation-name: anime1;
+    -webkit-animation-duration: 15s;
+            animation-duration: 15s;
+    -webkit-animation-iteration-count: infinite;
+            animation-iteration-count: infinite;
+}
+#img2 {
+    position: relative;
+    top: -315px;;
+    -webkit-animation-name: anime;;
+            animation-name: anime;
+    -webkit-animation-duration: 15s;
+            animation-duration: 15s; 
+    -webkit-animation-iteration-count: infinite; 
+            animation-iteration-count: infinite;
+}
+@-webkit-keyframes anime1 {
+    0% {left:0%}
+    50% {left:100%}
+    100% {left: 0%;}
+    
+}
+@keyframes anime1 {
+    0% {left:0%}
+    50% {left:100%}
+    100% {left: 0%;}
+    
+}
+@-webkit-keyframes anime {
+    0% {left: -100%;}
+    50% {left:0%}
+    100% {left:-100%}
+}
+@keyframes anime {
+    0% {left: -100%;}
+    50% {left:0%}
+    100% {left:-100%}
+}
+
+.slider {
+    height: 315px;
+    background: -o-linear-gradient(54deg, rgba(116,120,133,1) 0%, rgba(195,183,58,1) 18%, rgba(13,37,34,0.7819502801120448) 33%);
+    background: linear-gradient(36deg, rgba(116,120,133,1) 0%, rgba(195,183,58,1) 18%, rgba(13,37,34,0.7819502801120448) 33%);
+    -webkit-box-shadow: 5px 5px 5px;
+            box-shadow: 5px 5px 5px;
+}
+
+.aboutlambo {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: auto auto auto;
+    grid-template-columns: auto auto auto;
+    background: -o-linear-gradient(54deg, rgba(116,120,133,1) 0%, rgba(195,183,58,1) 18%, rgba(13,37,34,0.7819502801120448) 33%);
+    background: linear-gradient(36deg, rgba(116,120,133,1) 0%, rgba(195,183,58,1) 18%, rgba(13,37,34,0.7819502801120448) 33%);
+    text-align: center;
+    row-gap: 20px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-shadow: 5px -5px 5px;
+            box-shadow: 5px -5px 5px;
+    font-size: var(--globalfontsize);
+}
+.p {
+    color: #ffffff;
+    font-style: inherit;
+    font-weight: bold;
+}
+.photogrid1 {
+        grid-column-start: 1;
+    -ms-grid-column-span: 2;
+    grid-column-end: 3;
+}
+
+.photogrid2 {
+        grid-column-start: 2;
+    -ms-grid-column-span: 2;
+    grid-column-end: 4;
+}
+
+.p::first-letter {
+    font-family: var(--FavouriteFont);
+}
+
+.aboutlambo img {
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 5px;
+            box-shadow: 5px 5px 5px;
+    color: var(--myFavouriteColor);
+}
+
+footer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    font-size: var(--globalfontsize);
+    font-weight: bold;
+    background: -o-linear-gradient(54deg, rgba(116,120,133,1) 0%, rgba(195,183,58,1) 18%, rgba(13,37,34,0.9332107843137255) 33%);
+    background: linear-gradient(36deg, rgba(116,120,133,1) 0%, rgba(195,183,58,1) 18%, rgba(13,37,34,0.9332107843137255) 33%);
+    color: #ffffff;
+    
+}
+.leftfoot {
+    display: block;
+    width: 7%;
+    margin-left: 50px;
+    margin-top: 10px;
+    
+}
+
+.rightfoot {
+    display: block;
+    margin-right: 15px;
+    margin-top: 10px;
+}
+footer a {
+    text-decoration: none;
+    color: #ffffff;
+    
+    padding: 5px;
+}
+footer input {
+    padding: 5px;
+    border-style: none;
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+footer button {
+    padding: 5px;
+    border-style: none;
+}
+
+button:hover {
+    cursor:auto;
+}
