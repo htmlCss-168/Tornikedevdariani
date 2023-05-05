@@ -47,6 +47,10 @@ nav {
     display: block;
     padding-right: 20px;
 }
+.rightnav a:hover{
+    color: #a8a7a7;
+    transition-duration: 1s;
+}
 
 .rightnav input{
     padding: 15px;
@@ -67,8 +71,15 @@ nav {
     position: fixed;
     left: 2;
 }
-.socialMedia a{
+.socialmediaimg{
     margin-top: 5px;
+    
+}
+
+.socialmediaimg:hover {
+    transform: scale(1.2);
+    transition-duration: 1s;
+    
 }
 .rightnav button {
     padding: 15px;
@@ -99,13 +110,31 @@ nav {
     border-radius: 10px;
 }
 
-#imginfo {
+.imginfo {
     -webkit-box-shadow: -10px 12px 10px;
             box-shadow: -10px 12px 10px;
     border-radius: 10px;
 }
+.imginfo:hover {
+    transform: scale(1.1);
+    transform-style: initial;
+    transition-duration: 1s;
+    color: var(--myFavouriteColor);
+
+}
 h1 {
     color: var(--myFavouriteColor);
+    text-shadow: 0px 3px 3px;
+}
+#rightimg:hover {
+    transform: rotate(-2deg);
+    scale: 1.1;
+    transition-duration: 2s;
+}
+#leftimg:hover {
+    transform: rotate(2deg);
+    scale: 1.1;
+    transition-duration: 2s;
 }
 #firstp {
     -ms-grid-column: 1;
@@ -116,6 +145,26 @@ h1 {
 .pageinfo2 {
     padding-left: 40px;
     padding-top: 20px;
+}
+
+p {
+    color: var(--myFavouriteColor);
+    font-size: var(--globalFontSize);
+}
+
+#beginningimg {
+    color: rgb(82, 81, 81);
+    box-shadow: 0px 10px 10px;
+}
+
+.beginning:hover {
+    transform: scale(1.1);
+    transition-duration: 2s;
+    transition-timing-function:ease-in-out;
+}
+
+.lastp{
+    text-align: left;
 }
 
 footer {
@@ -131,15 +180,25 @@ footer {
     padding: 20px;
     
 }
-
+.leftfooter {
+    margin-top: 20px;
+}
+.centerfooter {
+    margin-top: 20px;
+}
 footer a {
     display: block;
     text-decoration: none;
     font-size: var(--globalFontSize);
     color: var(--myFavouriteColor);
     padding-left: 20px;
+    text-align: start;
 }
-
+footer a:hover {
+    color: #a8a7a7;
+    transform: scale(0.9);
+    transition-duration: 0.5s;
+}
 .intorightfooter {
     display:-ms-grid;
     display:grid;
