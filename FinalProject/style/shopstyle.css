@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: Tesla;
-    src: url(style/font/TESLA.ttf);
+    src: url(font/TESLA.ttf);
 }
 
 :root {
@@ -20,7 +20,7 @@ header {
 body {
     margin-right: 0;
     margin-left: 0;
-    background-image: url(lightspeed.jpg);
+    background-image: url(FinalProjectlightspeed.jpg);
 }
 
 nav {
