@@ -7,7 +7,7 @@
 
 @font-face {
     font-family: Tesla;
-    src: url(/style/font/TESLA.ttf);
+    src: url(style/font/TESLA.ttf);
     ---boxshadow: 0px 0px 10px;
 
 }
@@ -24,7 +24,7 @@ body {
     height: 100%;
     margin-right: 0;
     margin-left: 0;
-    background-image: url(/lightspeed.jpg);
+    background-image: url(lightspeed.jpg);
 }
 
 nav {
