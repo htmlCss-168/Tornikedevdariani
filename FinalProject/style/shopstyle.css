@@ -152,7 +152,7 @@ button:hover {
 .socialMediaLinks {
     position: fixed;
     right: 0;
-    
+    z-index: 999;
 }
 .socialMediaLinks a{
     display: -webkit-box;
@@ -279,3 +279,36 @@ footer a:hover {
     border: 1px;
 }
 
+@media (max-width:480px) {
+    
+    #burgermenu {
+        margin-top:14px ;
+    }
+    .searchHolder {
+        display: none;
+    }
+    .ordercars{
+        display: block;
+    }
+    header a {
+        padding: 3px;
+    }
+    footer {
+        overflow: scroll;
+    }
+}
+@media (min-width: 481px) and (max-width: 1024px) {
+    .contactdiv {
+        display: block;
+
+    }
+    .ordercars {
+        display: block;
+    }
+    #contactmap {
+        width: 350px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+}
