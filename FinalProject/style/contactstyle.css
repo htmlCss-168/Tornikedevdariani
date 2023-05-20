@@ -22,7 +22,7 @@ body {
     height: 100%;
     margin-right: 0;
     margin-left: 0;
-    background-image: url(lightspeed.jpg);
+    background-color: #033f41;
     background-size: cover;
 }
 
@@ -135,7 +135,6 @@ li:hover ul.dropdown {
 }
 #searchButton {
     padding: 10px;
-    margin-left: -7px;
     border-left: none;
     border-style: hidden;
     color: red;
@@ -181,33 +180,35 @@ button:hover {
     display: -ms-flexbox;
     display: flex;
     color: #fdfafa;
-    background-color: #04717394;
-
-
+    background-image: url(cool-background.png);
+    background-size: cover;
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    
     margin: 40px;
-    padding: 60px;
+    padding: 30px;
     border-radius: 10px;
     text-shadow: 0px 0px 2px;
     -webkit-box-shadow: 0px 0px 20px;
             box-shadow: 0px 0px 20px;
-
+    color: #047173;
 }
 
 .contactdivmap {
     text-align: center;
-
-}
+    }
+    
 .contactdivmap img {
     border-radius: 10px;
+    box-shadow: 0px 0px 10px;
+    color: #047173;
 }
 .contactdiv img:hover {
     transform: scale(1.1);
     transition-duration: 0.5s;
     box-shadow: 0px 0px 10px;
+    background-color: #047173;
+    border-radius: 5px;
 }
 
 .contactinfo {
@@ -215,30 +216,63 @@ button:hover {
     padding-right: 40px; 
 }
 .contactadresses {
-    color: #e7e7e7;
-    
-
+    display: block;
 }
+.PhoneAndEmail {
+    display: flex;
+    width: 100%;
+    padding: 10px;
+}
+.PhoneAndEmail a{
+    text-decoration: none;
+    color: #047173;
+    font-size: 22px;
+    padding-left: 10px;
+}
+.PhoneAndEmail a:hover {
+    transform: scale(1.01);
+    color: rgb(3, 63, 65);
+}
+
 .rightContact {
-   border-radius: 10px;
-   background-color: #ffffff7e;
+    width: 100%;
+    padding-left:25px ;
+    box-shadow: 0px 0px 10px;
+    border-radius: 10px;
+    background-image: url(cool-background.png);
+}
+.rightContact:hover {
+    transform: scale(1.04);
+    transition-duration: 0.5s;
+    box-shadow: 0px 0px 20px;
 }
 .rightContact h2 {
     text-align: center;
-    color: red;
+}
+
+.rightContact h4 {
+    text-align: center;
 }
 .rightContact input{
     padding: 10px;
-    margin: 10px; 
+    margin: 15px; 
     border-radius: 4px;  
-    border: solid 1.5px; 
+    border: solid 1.5px;
+    background-color: #77b5b881;
+    color:#245657;
+    width: 150px;
+    
 }
+.names {
+    display: inline-block;
+}
+
 .rightContact input:hover{
     border-color: var(--myfavouritecolor);
     box-shadow: 0px 0px 10px;
 }
 #submit {
-    margin-left: 180px;
+    margin-left: 120px;
     padding-right: 25px;
     padding-left: 25px;
 }
@@ -298,13 +332,25 @@ footer a:hover {
 }
 .rightfoot input {
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 3px;
     border: 1px;
+}
+.rightfoot input:hover{
+    box-shadow: 0px 0px 10px;
+    color: #033f41;
+    background-color: #bdb7b7;
 }
 .rightfoot button {
     padding: 10px;
-    border-radius: 2px;
+    border-radius: 3px;
+    margin-left: 2px;
     border: 1px;
+    background-color: #9ba7a0;
+}
+.rightfoot button:hover{
+    box-shadow: 0px 0px 10px;
+    color: #033f41;
+    background-color: #248586;
 }
 
 @media(max-width:480px) {
