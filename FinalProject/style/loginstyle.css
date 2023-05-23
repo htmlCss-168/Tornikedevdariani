@@ -315,17 +315,23 @@ footer a:hover {
 
 
 @media (max-width:480px) {
-     a {
+    a {
         font-size: 40px;
     }
     
     footer {
         overflow: scroll;
     }
+    #agree {
+        width: 10px;
+    }
     
 }
 
 @media (min-width:481px) and (max-width:1024px) {
+    #agree {
+        width: 10px;
+    }
     .logindiv{
         padding: 10px;
         width: 80%;

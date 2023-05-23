@@ -388,16 +388,28 @@ footer a:hover {
     footer {
         overflow: scroll;
     }
+    .phonediv input{
+        width: 100%;
+        padding: 20px;
+    }
 }
 @media (min-width: 481px) and (max-width: 1024px) {
     .contactdiv {
         display: block;
 
     }
+    .rightContact input{
+        width: 40%;
+        padding: 30px;
+        font-size: 24px;
+    }
     #contactmap {
         width: 350px;
         height: auto;
         margin-bottom: 20px;
+    }
+    .rightContact {
+        width: 100%;
     }
 
 }
