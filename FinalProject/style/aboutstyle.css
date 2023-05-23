@@ -351,6 +351,9 @@ footer a:hover {
     color: #033f41;
     background-color: #248586;
 }
+footer {
+    margin-top:1900px ;
+}
 @media (max-width:480px) {
    
     
