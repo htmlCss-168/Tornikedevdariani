@@ -271,10 +271,10 @@ button:hover {
     border-color: var(--myfavouritecolor);
     box-shadow: 0px 0px 10px;
 }
-#submit {
-    margin-left: 120px;
-    padding-right: 25px;
-    padding-left: 25px;
+
+
+.righPlaceHolder {
+    text-align: center;
 }
 footer {
     display: -webkit-box;
