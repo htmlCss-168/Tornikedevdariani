@@ -399,3 +399,39 @@ footer a:hover {
     text-shadow: 0px 0px 2px;
 }
 
+@media(max-width:480px) {
+    
+    #burgermenu {
+        margin-top:14px ;
+    }
+    .searchHolder {
+        display: none;
+    }
+    
+    header a {
+        padding: 3px;
+    }
+    #submit {
+        margin-left: 50px;
+    }
+    
+    .contactinfo {
+        margin-bottom: 40px;
+    }
+    .rightContact h2 {
+        font-size: 20px;
+    }
+    .contactdiv {
+        display: block;
+        gap: 3%;
+
+    }
+    #contactmap {
+        width: 200px;
+        height: auto;
+        margin-bottom: 20px;
+    }
+    footer {
+        overflow: scroll;
+    }
+}

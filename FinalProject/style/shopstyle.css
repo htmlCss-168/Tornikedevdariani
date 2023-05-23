@@ -296,34 +296,29 @@ footer a:hover {
 }
 @media (max-width:480px) {
     
-    #burgermenu {
-        margin-top:14px ;
-    }
-    .searchHolder {
-        display: none;
-    }
-    .ordercars{
-        display: block;
-    }
-    header a {
-        padding: 3px;
-    }
-    footer {
-        overflow: scroll;
-    }
+   
 }
 @media (min-width: 481px) and (max-width: 1024px) {
+    
     .contactdiv {
         display: block;
 
     }
+    
     .ordercars {
         display: block;
+        
     }
-    #contactmap {
-        width: 350px;
-        height: auto;
-        margin-bottom: 20px;
+    .model {
+        width: 100%;
+        justify-content: center;
     }
+    .model button {
+        padding: 15px;
+    }
+    nav {
+        font-size: 25px;
+    }
+    
 
 }

@@ -352,10 +352,29 @@ footer a:hover {
     background-color: #248586;
 }
 @media (max-width:480px) {
-    .teslaPhotos {
+   
+    
+   
+}
+
+@media (min-width:481px) and (max-width:1024px) {
+    
+    .teslaTeamMember{
+        width: 500px;
+    }
+    .secondsect {
+        font-size: 30px;
+    }
+    footer {
+        margin-top:1900px ;
+    }
+    body {
+        height: 2600px;
+    }
+    /* .teslaPhotos {
         width: 200px;
         height: auto;
-    }
+    } */
     #burgermenu {
         margin-top:14px ;
     }
@@ -366,14 +385,6 @@ footer a:hover {
     header a {
         padding: 3px;
     }
-    footer {
-        overflow: scroll;
-    }
+    
 }
 
-@media (min-width:481px) and (max-width:805px) {
-    .teslaPhotos{
-        width: 400px;
-        height: auto;
-    }
-}
